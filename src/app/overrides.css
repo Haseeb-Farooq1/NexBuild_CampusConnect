@@ -1,0 +1,18 @@
+.textAction,.moreButton { background:none; border:0; color:var(--green); font-size:11px; margin-top:14px; text-decoration:underline }
+.moreButton { margin:0 0 0 12px; text-decoration:none; white-space:nowrap }
+.eventActions { align-items:center; display:flex; gap:4px; margin-left:12px }
+.deleteButton { background:#fff0ea; border:0; border-radius:3px; color:#b96c4d; font-size:11px; padding:7px 9px }
+.participantList { display:flex; flex-direction:column; gap:10px; max-height:420px; overflow-y:auto }
+.participant { background:#f5f8f4; border-radius:5px; display:flex; flex-direction:column; gap:4px; padding:12px }
+.participant strong { font-size:13px }
+.participant span,.participant small { color:#718079; font-size:11px }
+.participantModal { max-height:calc(100vh - 40px); max-width:min(1100px, calc(100vw - 40px)); overflow:hidden }
+.tableScroll { max-width:100%; overflow-x:auto; overflow-y:auto }
+.participantTable { border-collapse:collapse; font-size:11px; min-width:760px; table-layout:auto; width:100% }
+.participantTable th,.participantTable td { border-bottom:1px solid var(--line); max-width:220px; overflow-wrap:anywhere; padding:11px 10px; text-align:left; white-space:normal }
+.participantTable th { color:#52625b; font-size:10px; text-transform:uppercase }
+.proofThumb { border:1px solid var(--line); border-radius:4px; display:block; height:48px; object-fit:cover; width:48px }
+.checkboxLabel { align-items:center; display:flex !important; gap:8px }
+.checkboxLabel input { margin:0 !important; width:auto !important }
+.formError { background:#fff0ee; border:1px solid #f0c9c0; border-radius:4px; color:#a64f40; font-size:11px; line-height:1.4; margin:12px 0; padding:9px 10px }
+.modal small { color:#849597; display:block; font-size:10px; font-weight:400; margin-top:5px }
