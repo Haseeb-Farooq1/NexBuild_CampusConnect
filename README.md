@@ -18,7 +18,8 @@ npm install
 npm run dev
 ```
 
-Open .
+Open https://nex-build-campus-connect.vercel.app/.
+
 
 ## Database setup
 
